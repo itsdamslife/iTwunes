@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D4CC2815D914340004CF33 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D4CC2715D914340004CF33 /* Cocoa.framework */; };
+		40D4CC3215D914340004CF33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC3015D914340004CF33 /* InfoPlist.strings */; };
+		40D4CC3415D914340004CF33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D4CC3315D914340004CF33 /* main.m */; };
+		40D4CC3815D914340004CF33 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC3615D914340004CF33 /* Credits.rtf */; };
+		40D4CC3B15D914340004CF33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D4CC3A15D914340004CF33 /* AppDelegate.m */; };
+		40D4CC3E15D914340004CF33 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC3C15D914340004CF33 /* MainMenu.xib */; };
+		40D4CC5415D915C00004CF33 /* twiTunes.app in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC5215D915C00004CF33 /* twiTunes.app */; };
+		40D4CC5515D915C00004CF33 /* youTune.app in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC5315D915C00004CF33 /* youTune.app */; };
+		40D4CC5915D915C90004CF33 /* qIT.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC5615D915C90004CF33 /* qIT.scpt */; };
+		40D4CC5A15D915C90004CF33 /* twiTunes.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC5715D915C90004CF33 /* twiTunes.scpt */; };
+		40D4CC5B15D915C90004CF33 /* youTune.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 40D4CC5815D915C90004CF33 /* youTune.scpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40D4CC2315D914340004CF33 /* iTwunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTwunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D4CC2715D914340004CF33 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		40D4CC2A15D914340004CF33 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		40D4CC2B15D914340004CF33 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		40D4CC2C15D914340004CF33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40D4CC2F15D914340004CF33 /* iTwunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTwunes-Info.plist"; sourceTree = "<group>"; };
+		40D4CC3115D914340004CF33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40D4CC3315D914340004CF33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40D4CC3515D914340004CF33 /* iTwunes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTwunes-Prefix.pch"; sourceTree = "<group>"; };
+		40D4CC3715D914340004CF33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		40D4CC3915D914340004CF33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40D4CC3A15D914340004CF33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40D4CC3D15D914340004CF33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40D4CC5215D915C00004CF33 /* twiTunes.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = twiTunes.app; path = Apps/twiTunes.app; sourceTree = "<group>"; };
+		40D4CC5315D915C00004CF33 /* youTune.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = youTune.app; path = Apps/youTune.app; sourceTree = "<group>"; };
+		40D4CC5615D915C90004CF33 /* qIT.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = qIT.scpt; path = Scripts/qIT.scpt; sourceTree = "<group>"; };
+		40D4CC5715D915C90004CF33 /* twiTunes.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = twiTunes.scpt; path = Scripts/twiTunes.scpt; sourceTree = "<group>"; };
+		40D4CC5815D915C90004CF33 /* youTune.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = youTune.scpt; path = Scripts/youTune.scpt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D4CC2015D914340004CF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D4CC2815D914340004CF33 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D4CC1815D914340004CF33 = {
+			isa = PBXGroup;
+			children = (
+				40D4CC5115D915AE0004CF33 /* Apps */,
+				40D4CC5015D915AB0004CF33 /* Scripts */,
+				40D4CC2D15D914340004CF33 /* iTwunes */,
+				40D4CC2615D914340004CF33 /* Frameworks */,
+				40D4CC2415D914340004CF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D4CC2415D914340004CF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC2315D914340004CF33 /* iTwunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D4CC2615D914340004CF33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC2715D914340004CF33 /* Cocoa.framework */,
+				40D4CC2915D914340004CF33 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40D4CC2915D914340004CF33 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC2A15D914340004CF33 /* AppKit.framework */,
+				40D4CC2B15D914340004CF33 /* CoreData.framework */,
+				40D4CC2C15D914340004CF33 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		40D4CC2D15D914340004CF33 /* iTwunes */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC3915D914340004CF33 /* AppDelegate.h */,
+				40D4CC3A15D914340004CF33 /* AppDelegate.m */,
+				40D4CC3C15D914340004CF33 /* MainMenu.xib */,
+				40D4CC2E15D914340004CF33 /* Supporting Files */,
+			);
+			path = iTwunes;
+			sourceTree = "<group>";
+		};
+		40D4CC2E15D914340004CF33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC2F15D914340004CF33 /* iTwunes-Info.plist */,
+				40D4CC3015D914340004CF33 /* InfoPlist.strings */,
+				40D4CC3315D914340004CF33 /* main.m */,
+				40D4CC3515D914340004CF33 /* iTwunes-Prefix.pch */,
+				40D4CC3615D914340004CF33 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40D4CC5015D915AB0004CF33 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC5615D915C90004CF33 /* qIT.scpt */,
+				40D4CC5715D915C90004CF33 /* twiTunes.scpt */,
+				40D4CC5815D915C90004CF33 /* youTune.scpt */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		40D4CC5115D915AE0004CF33 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				40D4CC5215D915C00004CF33 /* twiTunes.app */,
+				40D4CC5315D915C00004CF33 /* youTune.app */,
+			);
+			name = Apps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D4CC2215D914340004CF33 /* iTwunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D4CC4115D914340004CF33 /* Build configuration list for PBXNativeTarget "iTwunes" */;
+			buildPhases = (
+				40D4CC1F15D914340004CF33 /* Sources */,
+				40D4CC2015D914340004CF33 /* Frameworks */,
+				40D4CC2115D914340004CF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTwunes;
+			productName = iTwunes;
+			productReference = 40D4CC2315D914340004CF33 /* iTwunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D4CC1A15D914340004CF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Techjini Solutions Pvt Ltd";
+			};
+			buildConfigurationList = 40D4CC1D15D914340004CF33 /* Build configuration list for PBXProject "iTwunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40D4CC1815D914340004CF33;
+			productRefGroup = 40D4CC2415D914340004CF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D4CC2215D914340004CF33 /* iTwunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D4CC2115D914340004CF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D4CC3215D914340004CF33 /* InfoPlist.strings in Resources */,
+				40D4CC3815D914340004CF33 /* Credits.rtf in Resources */,
+				40D4CC3E15D914340004CF33 /* MainMenu.xib in Resources */,
+				40D4CC5415D915C00004CF33 /* twiTunes.app in Resources */,
+				40D4CC5515D915C00004CF33 /* youTune.app in Resources */,
+				40D4CC5915D915C90004CF33 /* qIT.scpt in Resources */,
+				40D4CC5A15D915C90004CF33 /* twiTunes.scpt in Resources */,
+				40D4CC5B15D915C90004CF33 /* youTune.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D4CC1F15D914340004CF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D4CC3415D914340004CF33 /* main.m in Sources */,
+				40D4CC3B15D914340004CF33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40D4CC3015D914340004CF33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D4CC3115D914340004CF33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40D4CC3615D914340004CF33 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D4CC3715D914340004CF33 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		40D4CC3C15D914340004CF33 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D4CC3D15D914340004CF33 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D4CC3F15D914340004CF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		40D4CC4015D914340004CF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40D4CC4215D914340004CF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTwunes/iTwunes-Prefix.pch";
+				INFOPLIST_FILE = "iTwunes/iTwunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40D4CC4315D914340004CF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTwunes/iTwunes-Prefix.pch";
+				INFOPLIST_FILE = "iTwunes/iTwunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D4CC1D15D914340004CF33 /* Build configuration list for PBXProject "iTwunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D4CC3F15D914340004CF33 /* Debug */,
+				40D4CC4015D914340004CF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D4CC4115D914340004CF33 /* Build configuration list for PBXNativeTarget "iTwunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D4CC4215D914340004CF33 /* Debug */,
+				40D4CC4315D914340004CF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D4CC1A15D914340004CF33 /* Project object */;
+}

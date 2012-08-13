@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iTwunes' target in the 'iTwunes' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
